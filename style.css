@@ -1,0 +1,88 @@
+            body {
+                background-color: rgb(250, 245, 245);
+            }
+            
+            .container {
+                max-width: 1170px;
+                padding-top: 15px;
+            }
+            
+            h3 {
+                font-size: 16px;
+                font-weight: bold;
+            }
+            
+            .title {
+                width: 650px;
+                margin-left: 15px;
+                margin-bottom: 15px;
+                border: 1px solid rgb(241, 238, 238);
+                padding: 2px 0px 2px 5px;
+                display: inline-block;
+            }
+            
+            .lable-title {
+                display: inline-block;
+            }
+            
+            .section {
+                width: 300px;
+                padding: 2px 20px 2px 5px;
+                margin-left: 68px;
+                margin-bottom: 10px;
+            }
+            
+            .publication {
+                display: inline-block;
+                margin-bottom: 10px;
+            }
+            
+            .publication:first-child {
+                margin-left: 40px;
+            }
+            
+            .submit {
+                display: block;
+            }
+            
+            textarea {
+                padding-left: 5px;
+                width: 780px;
+                margin-top: 2px;
+            }
+            
+            @media(max-width: 780px) {
+                .container {
+                    max-width: 310px;
+                    padding-top: 15px;
+                    padding-left: 6px;
+                }
+                h3 {
+                    text-align: left;
+                }
+                .title {
+                    display: block;
+                    margin-left: 1px;
+                }
+                .title {
+                    width: 300px;
+                    height: 25px;
+                    margin-bottom: 5px;
+                }
+                .section {
+                    margin-left: 1px;
+                    margin-top: 2px;
+                }
+                .publication {
+                    margin-left: 1px;
+                    margin-top: 2px;
+                    display: block;
+                }
+                .publication:first-child {
+                    margin-left: 1px;
+                }
+                textarea {
+                    width: 300px;
+                    margin-left: 5px;
+                }
+            }
