@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MAKET_FORM</title>
+    <link href="./css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <h3> Для публикации вашей статьи заполните, пожалуйста, следующую форму: </h3>
+        <form action="search.php" method="get" target="_blank">
+            <label class="lable-title" for="title">Название статьи:</label>
+            <input class="title" type="text" name="title" id="title" required placeholder="Введите навание статьи">
+            <br/>
+            <label for="section"> Рубрика:</label>
+            <select name="section" class="section">
+                <option value="programming" selected>программирование</option>
+                <option value="modelling">моделирование</option>
+                <option value="design">дизайн</option>
+              </select>
+            <div> Публикация:
+                <p class="publication">
+                    <input type="radio" id="public1" name="publication" value="onsite">
+                    <label for="public1">на сайте</label>
+                </p>
+                <p class="publication">
+                    <input type="radio" id="public2" name="publication" value="jurnal">
+                    <label for="public2">в журнале</label>
+                </p>
+                <p class="publication">
+                    <input type="radio" id="public3" name="publication" value="mail">
+                    <label for="public3"> на сайте и в журнале</label>
+                </p>
+            </div>
+
+            <label for="comments"> Разрешить комментарии:</label>
+            <input type="checkbox" name="comments" id="comments" checked>
+            <p><label class="article" for="article"> Текст статьи:</label></p>
+            <textarea rows="3" cols="60" name="article" placeholder="Введите текст"></textarea>
+
+            <input class="submit" type="submit" value="Опубликовать">
+
+
+
+
+
+
+        </form>
+    </div>
+</body>
+
+</html>
